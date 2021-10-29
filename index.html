@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style media="screen">
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+}
+</style>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/p_landing.css">
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header" class="header">
+        <div class="logo">
+          <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/13/13510.png" alt="cd logo">
+          <h1>Ye' olde Turntable</h1>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Pricing">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        </div>
+        <section id="section">
+          <h3>Providing you with vitrolas and turntables since 2002</h3>
+          <p>Because in audio we trust.</p>
+          <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="Enter your email">
+            <input id="submit" type="submit" name="submit" value="Send me more info!">
+          </form>
+        </section>
+        <div class="container">
+          <section id="About">
+            <div class="grid">
+              <div class="icon" >
+                <img src="https://cdn-icons-png.flaticon.com/512/1076/1076745.png" alt="info">
+              </div>
+              <div class="description">
+                <h1>About</h1>
+                <p>Since year 2002 we specialize in providing the most purchased turntables on the market,
+                  along with improved accessories and extensive quality control.
+                  All our products are tested upon arrival at our store.</p>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="icon" >
+                <img src="https://cdn-icons-png.flaticon.com/512/411/411763.png" alt="info">
+              </div>
+              <div class="description">
+                <h1>Shipping</h1>
+                <p>We make sure you recieve your product as soon as we have finished tested it. We also provide free returns if you are not satisfied.</p>
+              </div>
+            </div>
+          </section>
+          <section id="Features" class="features">
+            <iframe id="video" src="https://www.youtube.com/embed/WYHZhPN5l9Y" height="325" allowfullscreen="" ></iframe>
+            <p>Home is... where the record player is.</p>
+          </section>
+          <section id="Pricing" class="pricing">
+            <div id="vintage" class="product">
+              <div class="pturnt">
+                <h2 class="prtitle">Vintage turntable</h2>
+                <h2 class="mny">$ 300</h2>
+              </div>
+                <p>Try one of our vintage models with no strings attached.
+                  And if you decide to buy one, receive a 20% discount if you purchase a
+                  vinyl from the 80's and 90's series.</p>
+                  <button class="pay">Select</button>
+            </div>
+            <div id="mturntable" class="product">
+              <h2 class="prtitle">Modern turntables</h2>
+              <h2 class="mny">$ 100 - $300</h2>
+              <div>
+                <p>Why spend on vintage gear created only for snobs?
+                  Try one of our value-for-money modern equipment and invest
+                  your spare money in bulb DACs and HI-FI wiring.</p>
+                  <button class="pay">Select</button>
+              </div>
+              </div>
+            <div id="pdisc" class="product">
+              <h2 class="prtitle">Portable Discman</h2>
+              <h2 class="mny">$ 100 </h2>
+              <div >
+                <p>No vinyl for the moment? We also have old school discman.
+                  Get them, and get a dose of 80's nostalgia by the rhythm of "Super Freak"
+                  while you walk down on the sidewalk with them.</p>
+                  <button class="pay">Select</button>
+              </div>
+            </div>
+          </section>
+          <footer class="footer">
+            <ul>
+              <li> Contac us</li>
+              <li> Privacy </li>
+              <li>Terms</li>
+            </ul>
+            <span>
+              Copyright 2002, Ye' olde Turntable.
+            </span>
+          </footer>
+        </div>
+    </div>
+  </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+</html>

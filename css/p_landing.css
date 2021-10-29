@@ -1,0 +1,228 @@
+.header{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: rgba(15, 139, 71, 1);
+  color: black;
+}
+  .header a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding: 2rem 0;
+}
+  .flex-container{
+    display: flex;
+    justify-content: space-around;
+  }
+.logo{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  color: Black;
+  font-family: 'Alex Brush';
+  font-size: 40px;
+}
+#header-img{
+  width: 64px;
+  justify-content: space-between;
+  height: auto;
+  max-width: 100%;
+
+}
+
+#nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5px;
+  padding: 1.5px;
+  width: 40rem;
+  font-family: 'Alex Brush';
+}
+  #nav-bar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+    #nav-bar ul li{
+    display: inline-block;
+    justify-content: space-around;
+  }
+      #nav-bar ul li a{
+      display: flex;
+      justify-content: center;
+      height: 60px;
+      padding: 0;
+      width: 10rem;
+      border: 0;
+      color: black;
+      font-size: 22px;
+    }
+      #nav-bar ul li a:hover{
+        background: rgba(0, 163, 141, 0.5)
+      }
+
+#section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+  #section h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5px 1.5px;
+    text-align: center;
+    font-family: 'Alice';
+    font-size: 22px;
+  }
+    #section p{
+      font-family: 'Alex Brush';
+      font-size: 40px;
+    }
+      #section .form{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 10px;
+        border: 2em;
+        height: 80px;
+      }
+        #section .form #submit{
+          cursor: pointer;
+          padding: 10px 24px;
+          margin-top:inherit;
+          font-family: 'Alice';
+          font-size: 14px;
+
+        }
+          #section .form #email{
+            padding: 10px;
+            width: 250px;
+          }
+.grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 5px 60px;
+  border: 30px;
+}
+  .grid .description{
+    justify-content: flex-start;
+  }
+  .grid h1{
+    justify-content: flex-start;
+  }
+    .grid img{
+      width: 64px;
+      margin: 2rem;
+    }
+      .grid p{
+        font-family: 'Alice';
+        font-size: 18px;
+      }
+
+.features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .features p{
+    font-family: 'Alex Brush';
+    font-size: 40px;
+  }
+
+.pricing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  border: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 40px;
+}
+
+.pricing .product{
+  display: block;
+  margin: 2px;
+  padding: 0px;
+  background-color: rgba(70, 180, 113, 0.6);
+  border: 2px;
+  }
+    .pricing .prtitle{
+      font-family: 'Alex Brush';
+      font-size: 26px;
+      background-color: rgba(200, 247, 194, 0.8);
+      margin: 0;
+      border: 2px;
+    }
+      .pricing p{
+        font-family: "Alice";
+        font-size: 20px;
+      }
+        .pricing .mny{
+          font-family: "Roboto";
+        }
+
+
+    .pricing .pay{
+      cursor: pointer;
+      padding: 10px 24px;
+      background-color: #FFFF;
+      border-radius: 5px;
+      font-family: 'Alice';
+      font-size: 14px;
+    }
+      .pricing .pay:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.4s;
+      }
+body{
+  margin: 0;
+  background-color:#FFFBE6;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: end;
+  margin: 0;
+  background-color: gray;
+  padding: 0px 0px 20px 0px;
+
+}
+  .footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+  }
+    .footer ul li{
+
+    }
+      .footer span{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Alice";
+        margin: 0px 120px 0px 40px;
+      }
